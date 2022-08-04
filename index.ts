@@ -16,6 +16,6 @@ export class Subsync {
   }
 
   public unsubscribe(): void {
-    this._subs.forEach(sub => sub.unsubscribe())
+    this._subs.forEach(sub => sub.unsubscribe());
   }
 }
